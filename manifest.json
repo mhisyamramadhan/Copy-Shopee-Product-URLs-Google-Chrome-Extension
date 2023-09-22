@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Copy Shopee Product URLs",
+    "version": "1.0",
+    "description": "This Extension helps to copy only tabs with Shopee Product URLs",
+    "action": {
+      "default_icon": {
+        "16": "assets/icon16.png",
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "clipboardWrite",
+      "offscreen",
+      "notifications"
+    ],
+    "icons": {
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "128": "assets/icon128.png"
+    }
+}  
